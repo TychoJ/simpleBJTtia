@@ -1147,7 +1147,7 @@
 			(pintype "passive")
 			(uuid "d66c9bc9-5961-44e2-bc92-4dd42232fa0e")
 		)
-		(model "/home/tychoj/Documents/hva2/HvA-kicad-lib/3dModels/B6252HB-NPP3G-50.step"
+		(model "${KIPRJMOD}/3dModels/B6252HB-NPP3G-50.step"
 			(offset
 				(xyz 0 -1 8)
 			)
@@ -3304,7 +3304,7 @@
 			(pintype "passive")
 			(uuid "65f41abd-9c43-49e6-b5f5-0fd30a259d9d")
 		)
-		(model "/home/tychoj/Documents/hva2/HvA-kicad-lib/3dModels/CT3149_3D-Drawings_STEP/CT3149-0.STEP"
+		(model "${KIPRJMOD}/3dModels/CT3149_3D-Drawings_STEP/CT3149-0.STEP"
 			(offset
 				(xyz 0 0 22)
 			)
@@ -4073,7 +4073,7 @@
 			(pintype "passive")
 			(uuid "088c0042-87e4-4e3f-88d2-3fe3ddc9c485")
 		)
-		(model "/home/tychoj/Documents/hva2/HvA-kicad-lib/3dModels/B6252HB-NPP3G-50.step"
+		(model "${KIPRJMOD}/3dModels/B6252HB-NPP3G-50.step"
 			(offset
 				(xyz 0 -1 7)
 			)
@@ -4203,7 +4203,7 @@
 			(pintype "passive")
 			(uuid "53aa38dd-7072-4ab4-b599-2293fdfecd46")
 		)
-		(model "/home/tychoj/Documents/hva2/HvA-kicad-lib/3dModels/CT3149_3D-Drawings_STEP/CT3149-2.STEP"
+		(model "${KIPRJMOD}/3dModels/CT3149_3D-Drawings_STEP/CT3149-2.STEP"
 			(offset
 				(xyz 0 0 22)
 			)
