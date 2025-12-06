@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "extraSymbols")(type "KiCad")(uri "/home/tychoj/Documents/projects/simpleBJTtia/hardware/extraSymbols.kicad_sym")(options "")(descr ""))
+)
