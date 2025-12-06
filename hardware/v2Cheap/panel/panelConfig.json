@@ -1,0 +1,44 @@
+{
+    "layout": {
+        "hspace": "20mm",
+        "vspace": "2mm",
+        "rotation": "270deg",
+        "rows": "2",
+        "cols": "2",
+        "vbonecut": "False",
+        "hbonecut": "False"
+    },
+    "tabs": {
+        "hwidth": "10mm"
+    },
+    "cuts": {
+        "type": "mousebites"
+    },
+    "framing": {
+        "type": "railstb"
+    },
+    "tooling": {
+        "type": "4hole",
+        "hoffset": "2.5mm",
+        "voffset": "2.5mm"
+    },
+    "fiducials": {
+        "type": "3fid",
+        "hoffset": "10mm",
+        "voffset": "2.5mm"
+    },
+    "text": {
+        "type": "simple",
+        "voffset": "2.5mm",
+        "text": "Simple BJT transimpedance amplifier"
+    },
+    "text2": {
+        "type": "simple",
+        "voffset": "-2.5mm",
+        "text": "TychoJ ",
+        "anchor": "mb"
+    },
+    "copperfill": {
+        "type": "solid"
+    }
+}
