@@ -45,3 +45,12 @@ fp-info-cache
 
 # Netlist
 *.net
+
+# Generated production files
+**/production
+**/fabrication-toolkit-options.json
+
+## gerbers
+**/gerberTest.zip
+*/gerberTest/*
+**/panelGerber
