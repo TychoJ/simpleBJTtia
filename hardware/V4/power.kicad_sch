@@ -1976,6 +1976,18 @@
 		)
 	)
 	(rectangle
+		(start 100.33 25.4)
+		(end 181.61 129.54)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4032a69e-eab7-4a92-a53e-0380e62281d4)
+	)
+	(rectangle
 		(start 36.83 85.09)
 		(end 88.9 182.88)
 		(stroke
@@ -2016,6 +2028,16 @@
 			)
 		)
 		(uuid "cf90b1db-f66f-4a0c-9b39-4e78c3a20cc9")
+	)
+	(text "Select power supply filters"
+		(exclude_from_sim no)
+		(at 136.906 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e99f173e-014e-4792-8a94-f4f2e0eaeba4")
 	)
 	(junction
 		(at 124.46 71.12)
@@ -2171,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 147.32) (xy 66.04 153.67)
+			(xy 66.04 147.32) (xy 66.04 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2271,7 +2293,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 163.83) (xy 66.04 165.1)
+			(xy 66.04 161.29) (xy 66.04 165.1)
 		)
 		(stroke
 			(width 0)
@@ -3238,7 +3260,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 215.9 109.22 0)
 			(effects
 				(font
@@ -3533,7 +3555,7 @@
 	)
 	(symbol
 		(lib_id "PCM_Elektuur:R")
-		(at 66.04 158.75 0)
+		(at 66.04 156.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3542,7 +3564,7 @@
 		(fields_autoplaced yes)
 		(uuid "65555c03-0b63-4282-b5a8-ef5fddbde69a")
 		(property "Reference" "R1"
-			(at 68.58 157.4799 0)
+			(at 68.58 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3551,7 +3573,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 68.58 160.0199 0)
+			(at 68.58 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3560,7 +3582,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 66.04 158.75 0)
+			(at 66.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3569,7 +3591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 158.75 0)
+			(at 66.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3578,7 +3600,7 @@
 			)
 		)
 		(property "Description" "resistor"
-			(at 66.04 158.75 0)
+			(at 66.04 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3587,7 +3609,7 @@
 			)
 		)
 		(property "Indicator" "+"
-			(at 62.865 155.575 0)
+			(at 62.865 153.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3596,7 +3618,7 @@
 			)
 		)
 		(property "Rating" "W"
-			(at 68.58 161.925 0)
+			(at 68.58 159.385 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3726,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "10u"
 			(at 116.84 67.31 90)
 			(effects
 				(font
@@ -3791,7 +3813,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "10m"
 			(at 116.84 52.07 90)
 			(effects
 				(font
@@ -4334,7 +4356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 199.39 109.22 0)
 			(effects
 				(font
